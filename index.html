@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alejandro Limay Reátegui</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="loading">
+        <nav id="topNav">
+            <p>Alejandro Limay Reátegui</p>
+        </nav>
+        <div id="loader">
+            <div class="door left-door">
+                <div class="ribbon-wrapper">
+                    <img src="img/cinta.webp">
+                </div>
+            </div>
+
+            <div class="door right-door">
+                <div class="ribbon-wrapper ribbon-right">
+                    <img src="img/cinta.webp">
+                </div>
+            </div>
+            <div class="loader-content">
+                <h2></h2>
+                <button hidden id="openInvitation">
+                    Abrir Invitación
+                </button>
+            </div>
+            <p class="tap-text">
+                    TOCAR PARA ABRIR
+            </p>
+        </div>
+        
+        <header class="hero">
+            <img src="img/portada.jpeg" alt="Portada">
+
+            <div class="overlay">
+                <h1>Alejandro Limay Reátegui</h1>
+                <p>Celebramos sus 80 años</p>
+            </div>
+        </header>
+        <section class="welcome fade-in">
+            <p>
+                Estás invitado a celebrar este momento junto a nosotros.
+            </p>
+            <br>
+            <h2>Faltan</h2>
+            <div class="counter">
+                <div>
+                    <span id="days">0</span>
+                    <p>Días</p>
+                </div>
+                <div>
+                    <span id="hours">0</span>
+                    <p>Horas</p>
+                </div>
+                <div>
+                    <span id="minutes">0</span>
+                    <p>Minutos</p>
+                </div>
+                <div>
+                    <span id="seconds">0</span>
+                    <p>Segundos</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="calendar-section fade-in">
+            <h2>¡Aparta la Fecha!</h2>
+
+            <div class="calendar-button">
+                <div class="calendar-header">
+                    Junio 2026
+                </div>
+                <div class="calendar-weekdays">
+                    <span>Lu</span>
+                    <span>Ma</span>
+                    <span>Mi</span>
+                    <span>Ju</span>
+                    <span>Vi</span>
+                    <span>Sá</span>
+                    <span>Do</span>
+                </div>
+                <div class="calendar-days">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>5</span>
+                    <span>6</span>
+                    <span>7</span>
+
+                    <span>8</span>
+                    <span>9</span>
+                    <span>10</span>
+                    <span>11</span>
+                    <span>12</span>
+                    <span class="event-day">13</span>
+                    <span>14</span>
+
+                    <span>15</span>
+                    <span>16</span>
+                    <span>17</span>
+                    <span>18</span>
+                    <span>19</span>
+                    <span>20</span>
+                    <span>21</span>
+
+                    <span>22</span>
+                    <span>23</span>
+                    <span>24</span>
+                    <span>25</span>
+                    <span>26</span>
+                    <span>27</span>
+                    <span>28</span>
+
+                    <span>29</span>
+                    <span>30</span>
+                </div>
+                <div class="mt-5 text-center">
+                    <a class="btn" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Cumpleaños%20Alejandro%20Limay%20Reátegui&amp;dates=20260613/20260613&amp;details=%C2%A1Los%20esperamos!" target="_blank" >Agendar Evento
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="evento fade-in">
+            <div>
+                <img src="img/copas.gif" class="copas">
+            </div>
+            <h2>Celebración</h2>
+            <p>Callao</p>
+            <p>Los esperamos a las 20:00hs</p>
+            <br>
+            <a href="https://maps.google.com" target="_blank" class="btn"> Ver ubicación </a>
+        </section>
+        <section class="gallery fade-in">
+            <h2>Algunos de mis Momentos</h2>
+
+            <div class="gallery-grid">
+                <img src="img/img-01.jpeg" alt="">
+                <img src="img/img-02.jpeg" alt="">
+                <img src="img/img-03.jpeg" alt="">
+                <img src="img/img-04.jpeg" alt="">
+                <img src="img/img-05.jpeg" alt="">
+                <img src="img/img-06.jpeg" alt="">
+                <img src="img/img-07.jpeg" alt="">
+                <img src="img/img-08.jpeg" alt="">
+                <img src="img/img-09.jpeg" alt="">
+                <img src="img/img-10.jpeg" alt="">
+                <img src="img/img-11.jpeg" alt="">
+            </div>
+        </section>
+
+        <div id="lightbox">
+            <span id="closeLightbox">&times;</span>
+            <img id="lightboxImg" src="">
+        </div>
+
+        <section class="dresscode fade-in">
+            <div>
+                <img src="img/dresscode.png" class="copas">
+            </div>
+            <h2>Código de Vestimenta</h2>
+            <p>Una ocasión especial, merece un look a la altura</p>
+            <br>
+            <p>¡Sé creativo con tu look!</p>
+        </section>
+        
+        <audio id="bgMusic" loop>
+            <source src="audio/audio.mp3" type="audio/mpeg">
+        </audio>
+
+        <button id="musicBtn">
+            🔊
+        </button>
+
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
